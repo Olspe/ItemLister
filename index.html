@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <title>Item Lister</title>
+</head>
+<body>
+    <header id="main-header" class="bg-dark text-white p-4 mb-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h1 id="header-title">Item Lister</h1>
+            </div>
+            <div class="col-md-6 align-self-center d-flex">
+              <input type="text" class="form-control" id="filter" placeholder="Search Items...">
+              <input type="button" class='btn btn-primary ml-2' id='clear' value="Clear">
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container add-container">
+        <div id="main" class="card card-body">
+          <h2 class="title">Add Items</h2>
+          <form id="addForm" class="form-inline mb-3">
+            <input type="text" class="form-control mr-2" required id="item">
+            <input type="submit" class="btn btn-primary" value="Submit">
+          </form>
+          <h2 class="title">Items</h2>
+          <ul id="items" class="list-group">
+            <!-- <li class="list-group-item">Item 1 <button class="btn btn-danger btn-sm float-right delete">X</button><button class="btn btn-primary btn-sm float-right update mr-4">UP</button></li>
+            <li class="list-group-item">Item 2 <button class="btn btn-danger btn-sm float-right delete">X</button><button class="btn btn-primary btn-sm float-right update mr-4">UP</button></li>
+            <li class="list-group-item">Item 3 <button class="btn btn-danger btn-sm float-right delete">X</button><button class="btn btn-primary btn-sm float-right update mr-4">UP</button></li>
+            <li class="list-group-item">Item 4 <button class="btn btn-danger btn-sm float-right delete">X</button><button class="btn btn-primary btn-sm float-right update mr-4">UP</button></li> -->
+          </ul>
+        </div>
+       
+      </div>
+      <div class ='container'>
+        <input type="text" class="form-control updateBox mr-2" required id="item">
+      <input type="button" class='btn btn-primary w-100' id='updateBtn' value="Enter new item">
+      </div>
+      
+      <script src="main.js"></script>
+</body>
+</html>
