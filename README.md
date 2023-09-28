@@ -1,7 +1,7 @@
 # ItemLister
 
 ## Project Definition
-This project was built with HTML, CSS, Bootstrap and Javascript. Creates and deleted items from a list and is capable of storing the list in the browser's local storage.
+This project was built with HTML, CSS, Bootstrap and Javascript. Creates, updates and deleted items from a list and is capable of storing the list in the browser's local storage.
 
 ## Setup
 **Step 1:** Download the repository or you can choose to fork and clone the repository onto your local amahine useing git.  
